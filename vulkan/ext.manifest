@@ -1,0 +1,7 @@
+name: 'Vulkan'
+
+platforms:
+    x86_64-osx:
+        context:
+            frameworks: ['Metal', 'IOSurface', 'QuartzCore']
+            libs:       ['graphics_vulkan', 'MoltenVK']
